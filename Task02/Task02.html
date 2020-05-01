@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task02</title>
+</head>
+
+<body>
+    <style>
+        body {
+            margin: 0;
+            background-color: khaki;
+        }
+        /*头部样式*/
+        
+        .topnav {
+            overflow: hidden;
+            background-color: grey;
+        }
+        /*导航条*/
+        
+        .topnav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        /*导航链接*/
+        
+        .topnav a:hover {
+            background-color: beige;
+            color: indigo;
+        }
+        /*修改导航栏颜色*/
+        
+        .column {
+            float: left;
+            width: 33.3%;
+            background-color: cornflowerblue;
+        }
+        /*创建三个相等的列*/
+        
+        .button {
+            background-color: rgb(2, 27, 13);
+            border-radius: 12px;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 5px 3px;
+        }
+        
+        .button:hover {
+            background-color: white;
+            color: black;
+        }
+        
+        div {
+            text-align: center;
+        }
+    </style>
+
+    <div class="topnav">
+        <a href="#">佰烧</a>
+        <a href="#">分米鸡</a>
+        <a href="#">大渝火锅</a>
+    </div>
+
+    <br/><br/><br/>
+
+    <div class="row">
+        <div class="column">
+            <h2>白吃券</h2>
+            <button class="button">抢购</button>
+        </div>
+
+        <div class="column">
+            <h2>节假日1.8折券</h2>
+            <button class="button">抢购</button>
+        </div>
+
+        <div class="column">
+            <h2>您希望本站推出什么样的服务呢？</h2>
+            <ul>
+                <li>抢钱？</li>
+                <li>免邮送券到家？</li>
+                <li>做梦，想想吧</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
