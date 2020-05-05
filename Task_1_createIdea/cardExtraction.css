@@ -30,7 +30,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(./img/weiyan.jpg);
+    background-image: url(./img/backSide1.png);
     background-repeat: no-repeat;
     background-position: center center;
     backface-visibility: hidden;
@@ -43,7 +43,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(./img/backSide1.png);
+    background-image: url(./img/weiyan.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     transform: rotateY(-180deg);
