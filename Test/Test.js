@@ -8,7 +8,7 @@
 content = "text/html;charset=UTF-8" >
     <
     title > Document < /title> <
-    style type = "text/css" >
+style type = "text/css" >
     *
     {
         margin: 0;
@@ -106,41 +106,41 @@ content = "text/html;charset=UTF-8" >
         margin: 0 auto;
         margin - top: 10 px;
     } <
-    /style> <
-    /head> <
+    /style> < /
+    head > <
     body >
     <!-- 头部 -->
     <
     div class = "header" >
     <
     div class = "logo" > logo < /div> <
-    div class = "language" > 语言选择 < /div> <
-    div class = "nav" > 导航条 < /div> <
-    /div>
+div class = "language" > 语言选择 < /div> <
+div class = "nav" > 导航条 < /div> < /
+    div >
 
-<!-- 主要内容 -->
-<
-div class = "content" >
+    <!-- 主要内容 -->
+    <
+    div class = "content" >
     <
     div class = "banner" > 大广告 < /div> <
-    div class = "rightPart" >
+div class = "rightPart" >
     <
     div class = "main" >
     <
     div class = "news" >
     <
     div class = "news1" > < /div> <
-    div class = "news2" > < /div> <
-    div class = "news3" > < /div> <
-    /div> <
-    div class = "hotpic" > < /div> <
-    /div> <
-    div class = "links" > < /div> <
-    /div> <
+div class = "news2" > < /div> <
+div class = "news3" > < /div> < /
+    div > <
+    div class = "hotpic" > < /div> < /
+    div > <
+    div class = "links" > < /div> < /
+    div > <
     /div>
 
 <!-- 页尾 -->
 <
-div class = "footer" > < /div> <
-    /body> <
+div class = "footer" > < /div> < /
+    body > <
     /html>
