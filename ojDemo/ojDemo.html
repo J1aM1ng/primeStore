@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oj</title>
+    <link rel="stylesheet" href="./ojDemo.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+    <div class="header">
+        <p>Online Judge</p>
+    </div>
+    <div class="content">
+        <h3><strong>题目描述</strong></h3>
+        <p> 这一天训练时，LZC和HGL由于想法上的不合又吵了起来，但身为acmer，他们决定用男人的方式进行决斗。</p>
+        <p> LZC拿出自己买的n个糖果，告诉HGL单挑规则如下：</p>
+        <p>由LZC先手进行，轮流拿走糖果（轮到自己时至少拿一个），每个人当前可以拿走的糖果最大值为，其中cur为当前剩余糖果的个数，k为一个常数。如果轮到一个人的时候剩下的糖果数为0，则这个人输掉。（代表a和b中较大的数字）</p>
+        <p> 由于n是LZC是决定的，为了公平起见，k由HGL决定。要求k是一个正整数且k＜n，现在HGL想知道k设置多少时自己可以必胜，如果无解输出-1，如果有多解，任何一个可行的解都会被认为是正确的。</p>
+        <p>我们假设单挑过程中LZC和HGL都足够聪明。</p>
+        <h3><strong>输入格式</strong></h3>
+        <p>第一行一个正整数n（2&lt;=n&lt;=10^9），代表LZC买的糖果数。</p>
+        <h3>输出格式</h3>
+        <p>仅一行，一个整数k，如果HGL有必胜法则输出任意一个可以使他必胜的k且必须保证1&lt;=k&lt;n，否则输出-1</p>
+        <h3>样例输入</h3>
+        <form action="#">
+            <input type="text" name="show" value="2" readonly />
+        </form>
+        <h3>样例输出</h3>
+        <form action="#">
+            <input type="text" name="show" value="1" readonly />
+        </form>
+        <h3>样例解释</h3>
+        <p>HGL唯一可选的数字k是1，当k是1时，LZC一开始只能选max（1，2-1）=1个糖果，HGL接下来只能选max（1，1-1）=1个糖果，然后轮到LZC，此时已经没有糖果，所以HGL胜利。</p>
+        <div class="editor">
+            <pre id="code" class="ace_editor" style="min-height:400px">
+            <textarea class="ace_text-input" id="textarea">
+            </textarea>
+            </pre>
+            <input type="submit" value="提交" id="submit">
+            <script src="./textarea.js"></script>
+        </div>
+    </div>
+    <script src="./ojDemo.js"></script>
+</body>
+
+</html>
